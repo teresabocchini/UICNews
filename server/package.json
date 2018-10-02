@@ -1,0 +1,10 @@
+{
+  "name": "uicnews",
+  "version": "1.0.0",
+  "description": "Azure function to retrieve UIC news articles from Bing news search API.",
+  "main": "index.js",
+  "author": "Teresa Bocchini",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
