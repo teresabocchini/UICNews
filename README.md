@@ -30,18 +30,20 @@ In order to use the app, visit a demo installation at:
 ###### In order to deploy using Github pages:
 
 1. Fork this repository on Github.
-2. Update the `homepage` property in `package.json` in the `client` folder with:
+2. Clone your newly forked repository.
+3. Update the `homepage` property in `package.json` in the `client` folder with:
 
-   > https:/<GITHUB ACCOUNT>.github.io/<REPOSITORY NAME>
+   > https://\<GITHUB ACCOUNT\>.github.io/\<REPOSITORY NAME\>
 
    For example:
 
    > https://teresajbocchini.github.io/UICNews
 
-3. In the `client` folder, run `npm run deploy`.
-4. Once it completes successfully, visit the website at:
+4. In the `client` folder, run `npm install`.
+5. In the `client` folder, run `npm run deploy`.
+6. Once it completes successfully, visit the website at:
 
-   > https://<GITHUB ACCOUNT>.github.io/<REPOSITORY NAME>
+   > https://\<GITHUB ACCOUNT\>.github.io/\<REPOSITORY NAME\>
 
 ### Server:
 
