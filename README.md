@@ -27,6 +27,8 @@ In order to use the app, visit a demo installation at:
 5. Once the build process completes successfully, take the contents of the generated `build` folder and upload it to your server.
 6. Visit `index.html` in a web browser.
 
+For development purposes, you can run `npm start` in the `client` folder to run a local server and open it a web browser.
+
 ###### In order to deploy using Github pages:
 
 1. Fork this repository on Github.
