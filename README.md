@@ -1,6 +1,6 @@
 # UICNews
 
-Displays news articles that mention UIC in the last six months in chronological order by using the Bing news API.
+Displays news articles that mention UIC in the last six months in reverse chronological order by using the Bing news API.
 
 # Design
 
@@ -12,7 +12,7 @@ For the server, I chose to use an Azure function in order to create an abstracti
 
 In order to use the app, visit a demo installation at:
 
-> https://teresajbocchini.github.io/uicnews
+> https://teresajbocchini.github.io/UICNews
 
 # Deployment:
 
@@ -36,7 +36,7 @@ In order to use the app, visit a demo installation at:
 
    For example:
 
-   > https://teresajbocchini.github.io/uicnews
+   > https://teresajbocchini.github.io/UICNews
 
 3. In the `client` folder, run `npm run deploy`.
 4. Once it completes successfully, visit the website at:
